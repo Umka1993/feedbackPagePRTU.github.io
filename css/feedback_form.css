@@ -1,0 +1,77 @@
+.form {
+  float: right;
+  padding-top: 66px;
+  margin-bottom: 24px; }
+  .form label {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-top: 21px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #333333; }
+  .form input {
+    width: 360px;
+    height: 46px;
+    background-color: #ffffff;
+    border: 1.0px solid #d6d3d3;
+    border-radius: 1.5px; }
+  .form select {
+    background-color: #ffffff;
+    border: 1.0px solid #d6d3d3;
+    border-radius: 1.5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #777777;
+    padding: 5px;
+    padding-left: 5px;
+    background-image: url(../img/polygon_1_549.png);
+    background-repeat: no-repeat;
+    background-position: right 15px center; }
+    .form select option {
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 48px;
+      font-weight: 400;
+      color: #777777; }
+  .form__messages {
+    width: 360px;
+    height: 145px;
+    background-color: #ffffff;
+    border: 1.0px solid #d6d3d3;
+    border-radius: 1.5px;
+    resize: none; }
+  .form__title {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #333333; }
+  .form__subtitle {
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    font-size: 16px;
+    line-height: 6px;
+    font-weight: 300; }
+  .form__button {
+    display: block;
+    color: white;
+    width: 200px;
+    height: 44px;
+    background-color: #ea6c47;
+    border-radius: 21.5px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 44px; }
